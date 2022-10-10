@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Pricing />
+    <Questions />
   </div>
 </template>
+<script>
+import Pricing from "@/components/About/Pricing";
+import Questions from "@/components/About/Questions";
+export default {
+  name: "about",
+  components: {
+    Pricing,
+    Questions,
+  },
+};
+</script>
